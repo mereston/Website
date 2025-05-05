@@ -1,0 +1,21 @@
+@use '@angular/material' as mat;
+
+.sidenav-container {
+  height: 100%;
+  background: var(--mat-sys-primary-container)
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: var(--mat-sys-tertiary);
+  color: var(--mat-sys-on-tertiary);
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
